@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1000.0" minHeight="700.0" minWidth="1000.0" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.beginningController">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="1000.0" layoutX="11.0" layoutY="-3.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="file:/Users/zsharma/Documents/Sophmore_Aggie/CSCE_314/Java/JavaFXProject/src/resources/beginning.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="ownerVisit" layoutX="596.0" layoutY="269.0" mnemonicParsing="false" onAction="#setOwnerVisit" opacity="0.0" prefHeight="174.0" prefWidth="159.0" text="Owner">
+         <font>
+            <Font />
+         </font>
+      </Button>
+      <Button fx:id="approach" layoutX="165.0" layoutY="217.0" mnemonicParsing="false" onAction="#approachTruck" opacity="0.0" prefHeight="255.0" prefWidth="424.0" text="Approach">
+         <font>
+            <Font />
+         </font>
+      </Button>
+      <Line endX="57.77508544921875" endY="215.00628662109375" layoutX="279.0" layoutY="109.0" startX="-125.49462890625" startY="12.207817077636719" stroke="#1f22d7" strokeWidth="7.0" />
+      <Polygon fill="#1f22d7" layoutX="349.0" layoutY="329.0" points="-32.88629150390625, 40.0, 33.210968017578125, 40.0, -1.339874267578125, -27.0821533203125" rotate="135.0" stroke="#bcb11c" strokeType="INSIDE" strokeWidth="0.0" />
+      <Label id="labelTextBeg" layoutX="28.0" layoutY="39.0" prefHeight="33.0" prefWidth="467.0" stylesheets="@../style/styles.css" text="Click here to check out" />
+      <Label id="labelTextBeg" layoutX="110.0" layoutY="70.0" stylesheets="@../style/styles.css" text="the Food Truck!" />
+      <Label id="labelTextBeg" layoutX="690.0" layoutY="136.0" prefHeight="44.0" prefWidth="269.0" stylesheets="@../style/styles.css" text="See what the" />
+      <Label id="labelTextBeg" layoutX="643.0" layoutY="170.0" prefHeight="44.0" prefWidth="358.0" stylesheets="@../style/styles.css" text="Owner has for you" />
+      <Line endX="51.12115478515625" endY="176.44903564453125" layoutX="671.0" layoutY="144.0" startX="150.67803955078125" startY="75.11433410644531" stroke="#1f22d7" strokeWidth="7.0" />
+      <Polygon fill="#1f22d7" layoutX="704.0" layoutY="335.0" points="-32.88629150390625, 40.0, 33.210968017578125, 40.0, -1.339874267578125, -27.0821533203125" rotate="-139.9" stroke="#bcb11c" strokeType="INSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>

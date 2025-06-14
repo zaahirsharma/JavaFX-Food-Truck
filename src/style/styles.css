@@ -1,0 +1,103 @@
+#exitButton{
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #d86e3a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+    -fx-font-family: "Copperplate";
+    -fx-text-alignment: center;
+}
+
+#labelTextBeg{
+    -fx-font-family: "Copperplate";
+    -fx-font-alignment: center;
+    -fx-font-size: 36px;
+    -fx-text-fill: "black";
+    -fx-background-color: "white";
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+
+}
+
+#labelText{
+    -fx-font-family: "Copperplate";
+    -fx-font-alignment: center;
+    -fx-font-size: 30px;
+    -fx-text-fill: "black";
+    -fx-background-color: "white";
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-padding: 0 10 0 10;
+
+}
+
+#menuBox{
+    -fx-font-family: "Copperplate";
+    -fx-font-alignment: center;
+    -fx-font-size: 30px;
+    -fx-text-fill: "black";
+    -fx-background-color: "#FDFD96";
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-padding: 15 15 15 15;
+    -fx-alignment: center;
+}
+
+#menuLabel{
+    -fx-font-family: "Copperplate";
+    -fx-font-alignment: center;
+    -fx-font-size: 15px;
+    -fx-text-fill: "black";
+    -fx-background-color: "white";
+    -fx-background-radius: 10;
+    -fx-font-weight: bold;
+    -fx-padding: 0 10 0 10;
+
+}
+
+#buyButton {
+    -fx-background-color: 
+    #2b2b2b,
+    linear-gradient(#3a3a3a 0%, #2e2e2e 20%, #262626 100%),
+    linear-gradient(#323232, #262626),
+    radial-gradient(center 50% 0%, radius 100%, rgba(80,80,80,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Copperplate";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+    -fx-padding: 10 20 10 20;
+}
+#buyButton Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+#restockButton {
+    -fx-background-color: 
+    #2b2b2b,
+    linear-gradient(#3a3a3a 0%, #2e2e2e 20%, #262626 100%),
+    linear-gradient(#323232, #262626),
+    radial-gradient(center 50% 0%, radius 100%, rgba(80,80,80,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-font-family: "Copperplate";
+    -fx-text-fill: linear-gradient(white, #d0d0d0);
+    -fx-font-size: 12px;
+}
+#restockButton Text {
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.9) , 1, 0.0 , 0 , 1 );
+}
+
+#background{
+    -fx-background-color: "#92b6f0";
+}

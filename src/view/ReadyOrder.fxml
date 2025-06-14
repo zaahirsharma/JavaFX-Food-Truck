@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="750.0" maxWidth="1000.0" minHeight="750.0" minWidth="1000.0" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.readyOrderController">
+   <children>
+      <ImageView fitHeight="750.0" fitWidth="1000.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="file:/Users/zsharma/Documents/Sophmore_Aggie/CSCE_314/Java/JavaFXProject/src/resources/ready_to_order.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="306.0" layoutY="554.0" prefHeight="60.0" prefWidth="313.0" text="Ready to Order?" textAlignment="CENTER" textOverrun="CLIP" AnchorPane.bottomAnchor="136.0" AnchorPane.leftAnchor="306.0" AnchorPane.rightAnchor="381.0" AnchorPane.topAnchor="554.0">
+         <font>
+            <Font name="Copperplate" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="307.0" layoutY="592.0" text="Click the Menu!" underline="true" AnchorPane.bottomAnchor="98.0" AnchorPane.leftAnchor="307.0" AnchorPane.rightAnchor="380.0" AnchorPane.topAnchor="592.0">
+         <font>
+            <Font name="Copperplate" size="36.0" />
+         </font>
+      </Label>
+      <Button id="exitButton" fx:id="leaveOrder" layoutX="382.0" layoutY="17.0" mnemonicParsing="false" onAction="#returnMain" prefHeight="44.0" prefWidth="127.0" stylesheets="@../style/styles.css" text="Leave" textAlignment="CENTER" AnchorPane.bottomAnchor="686.0" AnchorPane.leftAnchor="382.0" AnchorPane.rightAnchor="491.0" AnchorPane.topAnchor="17.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="241.0" fitWidth="295.0" layoutX="710.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/Users/zsharma/Documents/Sophmore_Aggie/CSCE_314/Java/JavaFXProject/src/resources/menuLook.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="menuButton" layoutX="702.0" layoutY="22.0" mnemonicParsing="false" onAction="#goToMenu" opacity="0.0" prefHeight="256.0" prefWidth="246.0" text="Button" />
+       <Label id="labelTextBeg" alignment="CENTER" layoutX="27.0" layoutY="46.0" prefHeight="37.0" prefWidth="339.0" stylesheets="@../style/styles.css" text="Admin Privileges" textAlignment="CENTER" />
+      <Line endX="147.79354858398438" endY="198.36129760742188" layoutX="136.0" layoutY="29.0" startX="31.16693115234375" startY="62.923927307128906" stroke="#1f22d7" strokeWidth="7.0" />
+      <Polygon fill="#1f22d7" layoutX="303.0" layoutY="253.0" points="-34.89825439453125, 40.000030517578125, 34.701507568359375, 40.000030517578125, -4.80108642578125, -35.0657958984375" rotate="141.2" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="admin" layoutX="168.0" layoutY="95.0" mnemonicParsing="false" onAction="#goAdmin" opacity="0.0" prefHeight="369.0" prefWidth="491.0" />
+   </children>
+</AnchorPane>
